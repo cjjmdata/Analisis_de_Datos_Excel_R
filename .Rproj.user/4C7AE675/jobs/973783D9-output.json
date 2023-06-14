@@ -1,0 +1,6 @@
+[2,"\n"]
+[1,"pandoc \n  to: latex\n  output-file: 0302_guion_R_Colab.tex\n  standalone: true\n  pdf-engine: xelatex\n  variables:\n    graphics: true\n    tables: true\n  default-image-extension: pdf\n  \nmetadata\n  documentclass: scrartcl\n  classoption:\n    - DIV=11\n    - numbers=noendperiod\n  papersize: letter\n  header-includes:\n    - '\\KOMAoption{captions}{tableheading}'\n  block-headings: true\n  title: '0302 Guión: R en la nube con Colab'\n  author: CJJM\n  editor: visual\n  \n"]
+[1,"running xelatex - 1\n"]
+[1,"  This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex.fmt)\n   restricted \\write18 enabled.\n  entering extended mode\n  \nrunning xelatex - 2\n"]
+[1,"  This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex.fmt)\n   restricted \\write18 enabled.\n  entering extended mode\n  \n\nOutput created: 0302_guion_R_Colab.pdf\n\nWatching files for changes\n"]
+[1,"Browse at http://localhost:6034/web/viewer.html\n"]

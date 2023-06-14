@@ -1,0 +1,4 @@
+- source: Intro_analisis_de_datos.qmd
+  quarto-pub:
+    - id: 334a581d-d93e-4840-b009-701a5e299be3
+      url: 'https://cjjm-anahuac.quarto.pub/intro_ad'

@@ -1,0 +1,64 @@
+load("C:/Users/kxcj/OneDrive/R/proyectos/cursos/anahuac/Analisis_de_Datos_Excel_R/T10_ModeloDeRegresion/presentaciones/datos/pisa18_puntajes.RData")
+
+
+######
+
+y <- winequality_vino$quality
+
+x1 <- winequality_vino$cve_tipo
+x2 <- winequality_vino$`fixed acidity` # acidez fija
+x3 <- winequality_vino$`volatile acidity` #acidez volátil
+x4 <- winequality_vino$`citric acid` # ácido cítrico
+x5 <- winequality_vino$`residual sugar` # azúcar residual
+x6 <- winequality_vino$chlorides # Cloruros
+x7 <- winequality_vino$`free sulfur dioxide` #dióxido de azufre libre
+x8 <- winequality_vino$`total sulfur dioxide` #dióxido de azufre total
+x9 <- winequality_vino$density # densidad
+x10 <- winequality_vino$pH # ph
+x11 <- winequality_vino$sulphates #sulfatos
+x12 <- winequality_vino$alcohol #alcohol
+
+
+modelo1 <- lm(y ~ x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 + x11 + x12)
+
+summary(modelo1)
+summary(winequality_vino)
+
+apar(mfrow=c(2, 2))
+plot(modelo1, las=1, col='deepskyblue4')
+
+
+plot(density(modelo1$residuals))
+
+
+nuevo <- data.frame(x1=1, x2 = 7, x3 = 0.3, x4 = 3,
+                    x5 = 5, x6 = 0.06, x7 = 30, x8 = 100,
+                    x9 = 0.99, x10 = 3, x11 = 0.5, x12 = 11)
+predict(object=modelo1, newdata=nuevo, interval="confidence", level=0.95)
+predict(object=modelo1, newdata=nuevo, interval="prediction", level=0.95)
+
+
+
+# Load package
+install.packages("devtools")
+library(devtools)
+devtools::install_github("mattflor/chorddiag")
+library(chorddiag)
+
+# Create dummy data
+m <- matrix(c(11975,  5871, 8916, 2868,
+              1951, 10048, 2060, 6171,
+              8010, 16145, 8090, 8045,
+              1013,   990,  940, 6907),
+            byrow = TRUE,
+            nrow = 4, ncol = 4)
+
+# A vector of 4 colors for 4 groups
+haircolors <- c("black", "blonde", "brown", "red")
+dimnames(m) <- list(have = haircolors,
+                    prefer = haircolors)
+groupColors <- c("#000000", "#FFDD89", "#957244", "#F26223")
+
+# Build the chord diagram:
+p <- chorddiag(m, groupColors = groupColors, groupnamePadding = 20)
+p
