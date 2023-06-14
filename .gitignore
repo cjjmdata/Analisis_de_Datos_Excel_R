@@ -6,5 +6,4 @@ T04_visualizaciones/
 T10_ModeloDeRegresion/
 .RData
 .Rhistory
--MacBook Pro de kxcj-2.Rhistory
--MacBook Pro de kxcj.Rhistory
+*.Rhistory

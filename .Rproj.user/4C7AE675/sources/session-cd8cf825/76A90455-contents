@@ -1,0 +1,9 @@
+00_apoyo/
+T01_Intro_analisis_de_datos/
+T02_Excel_basico/
+T03_R_Basico/
+T04_visualizaciones/
+T10_ModeloDeRegresion/
+.RData
+.Rhistory
+*.Rhistory
