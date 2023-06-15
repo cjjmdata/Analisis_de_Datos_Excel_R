@@ -123,11 +123,9 @@ zoom_line(1.60, 1.61, 0.00090)
 zoom_line(1.60, 1.61, 0.00050)
 
 
+pisa_18 <- read_sav("00_apoyo/BD/PISA18_CY07_MSU_STU_QQQ_Mx_variables_rm.sav")
 
-
-
-
-
+save(pisa_18, file = "datos/pisa_2018_var_select.Rdata")
 
 
 

@@ -3,14 +3,14 @@
     "path": "~/OneDrive/proyectos/cursos/anahuac/Analisis_de_Datos_Excel_R/00_apoyo/03_evaluaciones/Evaluaciones_curso_analisis_de_datos_con_Excel_R.qmd",
     "project_path": "00_apoyo/03_evaluaciones/Evaluaciones_curso_analisis_de_datos_con_Excel_R.qmd",
     "type": "quarto_markdown",
-    "hash": "3913188199",
+    "hash": "1434080795",
     "contents": "",
     "dirty": false,
     "created": 1686417977543.0,
     "source_on_save": false,
     "relative_order": 3,
     "properties": {
-        "rmdVisualMode": "true",
+        "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
         "source_window_id": "",
         "Source": "Source",
@@ -18,14 +18,14 @@
         "rmdVisualCollapsedChunks": "",
         "cursorPosition": "0,0",
         "scrollLine": "0",
-        "rmdVisualModeLocation": "6018:5291.111328125"
+        "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1686171077,
+    "lastKnownWriteTime": 1686701523,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1686171077,
+    "last_content_update": 1686701523,
     "read_only": false,
     "read_only_alternatives": []
 }

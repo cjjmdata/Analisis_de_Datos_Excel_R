@@ -215,7 +215,7 @@ Para responder las siguientes preguntas, utiliza la base de datos que se encuent
     
     ```
     
-    ¿Cuál es el valor de la variable "resultado" al finalizar su ejecución? Captura tu respuesta a dos decimales
+    ¿Cuál es el valor de la variable "resultado" al finalizar su ejecución? Captura tu respuesta a dos decimales, separa los miles con coma (,).
     
     **Respuesta: 1,003.33** `(Respuesta numérica)`
 
@@ -244,7 +244,7 @@ Para responder las siguientes preguntas, utiliza la base de datos que se encuent
     
   **Respuesta correcta: b**
 
-5. ¿Qué valor toma la variable "resultado" en el quinto ciclo del siguiente código en R?
+5. ¿Qué valor toma la variable "resultado" en el quinto ciclo del siguiente código en R? Captura tu respuesta SIN decimales.
 
     ```
     for (i in 1:10) {
@@ -257,25 +257,41 @@ Para responder las siguientes preguntas, utiliza la base de datos que se encuent
     **Respuesta: 90** `(Respuesta numérica)`
 
 
-6. ¿Cuáles de las siguientes opciones son consideradas buenas prácticas para el manejo de datos en R? (Selecciona todas las respuestas correctas) `(Instrucción: aleatorizar el orden de las respuestas.)`
+6. ¿Cuáles de las siguientes opciones son consideradas buenas prácticas para el manejo de datos con R en la nube? (Selecciona todas las respuestas correctas) `(Instrucción: aleatorizar el orden de las respuestas.)`
     a. Utilizar nombres de variables descriptivos
     b. Comentar el código de manera exhaustiva
     c. Anidar funciones para hacer más legible el código
-    d. Utilizar funciones y paquetes predefinidos en R
+    d. Anonimizar los datos sensibles antes de cargarlos en la nube.
     e. Empezar los nombres de variables con un número consecutivo.
     
     **Respuestas correctas: a, b, d** `Distribuir el puntaje entre las respuestas correctas que haya obtenido`
 
+** Preguntas que se responden con base de datos**
 
+Para responder las siguientes preguntas, carga en R en la plataforma de Colab la siguiente base de datos:
 
+https://raw.githubusercontent.com/cjjmdata/curso_analisis_de_datos_I/main/Datos/Raw/PISA15_calificaciones.csv
 
+7. ¿Cuántas filas tiene la base de datos?  Captura tu respuesta SIN decimales y utiliza la coma como separador de miles (,).
 
+    **Respuestas correctas: 7,568**
 
+8. Recupera y captura el dato que se encuentra en la fila 584 y la columna PV1MATH. Captura tu respuesta utilizando dos decimales.
 
+    **Respuestas correctas: 324.08**
 
+9. ¿Qué variable está en la quinta columna del data frame? `(Instrucción: aleatorizar el orden de las respuestas.)`
+    a. PV1SCIE
+    b. PV1MATH
+    c. Nivel
+    d. Modalidad
+    e. PV1READ
+    
+  **Respuesta correcta: a**
 
+10. Recupera y captura el dato que se encuentra en la fila 4,241 y la columna 7. Captura tu respuesta SIN decimales.
 
-
+    **Respuestas correctas: 4**
 
 
 
