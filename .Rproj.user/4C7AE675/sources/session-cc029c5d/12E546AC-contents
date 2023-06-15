@@ -124,12 +124,13 @@ zoom_line(1.60, 1.61, 0.00050)
 
 
 library(haven)
+library(readr)
 
 pisa_18 <- read_sav("00_apoyo/BD/PISA18_CY07_MSU_STU_QQQ_Mx_variables_rm.sav")
 
-write.csv(pisa_18, file = "datos/pisa_2018_var_select.csv")
+write_rds(pisa_18, file = "datos/pisa_2018_var_select.rds")
 
-
+datos <- readRDS("datos/pisa_2018_var_select.rds")
 
 
 
