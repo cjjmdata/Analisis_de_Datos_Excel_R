@@ -128,7 +128,7 @@ library(readr)
 
 pisa_18 <- read_sav("00_apoyo/BD/PISA18_CY07_MSU_STU_QQQ_Mx_variables_rm_28_duplicados.sav")
 
-write.csv(pisa_18, file = "datos/pisa_2018_var_select.csv")
+write.csv(pisa_18, file = "datos/pisa_2018_var_select.csv", row.names = FALSE)
 
 datos2 <- read.csv("datos/pisa_2018_var_select.csv")
 
