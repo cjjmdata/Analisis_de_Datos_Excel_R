@@ -11,7 +11,5 @@ duplicados <- sample_n(datos, size =round(nrow(datos) * 0.04422), replace = T)
 
 datos_vf <- rbind(datos, duplicados)
 
-datos_vf2 <- datos_vf[sample(nrow(datos_vf)),]
-
-write.csv(datos_vf2, file = "datos/eval_05_superstore_11_15.csv", row.names = FALSE)
+write.csv(datos_vf, file = "datos/eval_05_superstore_11_15.csv", row.names = FALSE)
 
