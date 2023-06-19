@@ -1,0 +1,353 @@
+---
+title: "Evaluaciones del curso de análisis de datos con Excel y R"
+author: "CJJM"
+format: docx
+editor: visual
+---
+
+## Evaluación 1: Introducción al análisis de datos
+
+`Instrucción general: aleatorizar el orden de las preguntas.`
+
+1.  ¿Cuál de las siguientes opciones describe mejor el análisis de datos? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  El proceso de descubrir patrones y relaciones en grandes conjuntos de datos a través de algoritmos y técnicas de aprendizaje automático.
+    b.  Es una disciplina que se ocupa de la recolección, análisis, interpretación, presentación y organización de datos.
+    c.  El proceso de revisión, limpieza, transformación y modelado de datos.
+    d.  Un campo interdisciplinario que utiliza métodos científicos, procesos, algoritmos y sistemas para extraer conocimiento e insights de estructuras de datos en diversas formas.
+
+    **Respuesta correcta: c**
+
+2.  ¿Cómo ayuda el análisis de datos a una organización en la toma de decisiones estratégicas?`(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  Eliminando completamente la incertidumbre en cada decisión.
+    b.  Disminuyendo la incertidumbre y proporcionando una base objetiva para cada decisión.
+    c.  Implementando la aleatoriedad en la toma de decisiones para disminuir sesgos.
+    d.  Garantizando resultados exitosos en cada decisión tomada.
+
+    **Respuesta correcta: b**
+
+3.  Relaciona cada etapa del análisis de datos con su ejemplo correspondiente `(Instrucción: aleatorizar el orden de las respuestas, en ambos bloques.)`
+
+    a.  Recolección de datos.
+    b.  Limpieza de datos.
+    c.  Transformación de datos.
+    d.  Análisis de datos.
+    e.  Visualización de resultados.
+
+    Ejemplos:
+
+    i.  Consultas a APIs, web scraping
+    ii. Eliminación de registros duplicados, llenado de valores faltantes, corrección de errores
+    iii. Codificación de variables categóricas
+    iv. Estadísticas descriptivas, construcción de modelos predictivos
+    v.  Diagramas de dispersión, mapas de calor
+
+**Respuestas correctas: a-i, b-ii, c-iii, d-iv, e-v** `Distribuir el puntaje entre las respuestas correctas que haya obtenido`
+
+4.  Para una variable como el "género", ¿qué medidas podrían calcularse? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  Media
+    b.  Varianza
+    c.  Frecuencias
+    d.  Moda
+    e.  Mediana
+    f.  Percentiles
+    g.  Coeficiente de variación
+
+    **Respuestas correctas: c y d** `Distribuir el puntaje entre las respuestas correctas que haya obtenido`
+
+5.  Para una variable como "Ingresos mensuales", ¿qué medidas podrían calcularse? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  Media
+    b.  Varianza
+    c.  Frecuencias
+    d.  Moda
+    e.  Mediana
+    f.  Percentiles
+    g.  Coeficiente de variación
+
+    **Respuestas correctas: a, b, c, d, e, f, y g** `Distribuir el puntaje entre las respuestas correctas que haya obtenido`
+
+6.  Si tienes una variable como "Nivel de educación", ¿qué medidas podrían calcularse? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  Media
+    b.  Varianza
+    c.  Frecuencias
+    d.  Moda
+    e.  Mediana
+    f.  Percentiles
+    g.  Coeficiente de variación
+
+    **Respuestas correctas: c, d, e y f** `Distribuir el puntaje entre las respuestas correctas que haya obtenido`
+
+7.  De acuerdo con las convenciones para nombrar archivos, ¿cuál o cuáles serían nombres válidos para un archivo que contiene las predicciones de ingresos para los siguientes 3 años? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  PredicciónIngresos2024A2026
+    b.  PrediccionIngresos2024_2026
+    c.  prediccion_ingresos_2024_2026
+    d.  Prediccion_ingresos2024_2026
+    e.  PrediccionIngresos2024A2026
+    f.  Predicción de ingresos 2024-2026
+
+    **Respuestas correctas: c y e** `Distribuir el puntaje entre las respuestas correctas que haya obtenido`
+
+8.  ¿Cuál de las siguientes es una buena práctica para estructurar las carpetas de un proyecto de análisis de datos? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  Guardar todos los archivos en la misma carpeta sin importar su tipo o función.
+    b.  Crear una carpeta por separado para cada archivo.
+    c.  Crear carpetas separadas para datos, código, resultados y documentación.
+    d.  Guardar todos los datos en el escritorio para un fácil acceso.
+
+    **Respuesta correcta: c**
+
+9.  Si tuvieras que diseñar una presentación con los resultados de un estudio cuantitativo, ¿qué subcarpetas serían útiles para organizar tus archivos? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  "Datos", "Código", "Gráficos", "Presentación".
+    b.  "Datos", "Archivos de Texto", "Imágenes", "Videos".
+    c.  "Fotos de Campo", "Entrevistas", "Notas de Reuniones", "Presentación".
+    d.  "Archivos de Word", "Archivos de Excel", "PowerPoints", "PDFs".
+
+    **Respuesta correcta: a**
+
+10. ¿Por qué es importante mantener un registro de las versiones de sus conjuntos de datos durante un proyecto de análisis de datos? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  Para mantener un registro de los cambios realizados en los datos.
+    b.  Para poder volver a una versión anterior de los datos si se comete un error.
+    c.  Para ayudar a otros miembros del equipo a entender los cambios realizados en los datos.
+    d.  Todas las anteriores.
+
+    **Respuesta correcta: d**
+
+## Evaluación 2: Excel básico para el análisis de datos
+
+1.  ¿Cuál de las siguientes NO es una pestaña en la interfaz de Excel? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  Inicio
+    b.  Insertar
+    c.  Vista
+    d.  Fórmulas
+    e.  Fuentes
+
+    **Respuesta correcta: e. Fuentes**
+
+2.  Tienes una hoja de cálculo que contiene las fechas de contratación de los empleados y quieres conocer el número total de empleados que han sido contratados. Algunas celdas están vacías porque aún no se ha realizado la contratación o tienen el texto "NC" porque no se llevó a cabo la contratación. ¿Qué función de Excel debes usar? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  CONTAR.SI
+    b.  CONTARA
+    c.  MAX
+    d.  SUMA
+    e.  PROMEDIO
+
+    **Respuesta correcta: a. CONTAR**
+
+3.  ¿Cuál de las siguientes opciones NO se considera una práctica recomendada para el manejo de datos en Excel? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  Guardar los datos originales sin ningún tipo de manipulación o edición.
+    b.  Mantener una trazabilidad clara y transparente de todas las manipulaciones de datos.
+    c.  Verificar regularmente la precisión y consistencia de los datos.
+    d.  Utilizar formatos y funciones complejas, para que la hoja de cálculo sea difícil de entender para otros, por seguridad.
+
+    **Respuesta correcta: e. Utilizar formatos y funciones complejas...**
+
+4.  Tienes una hoja de cálculo con el género de los empleados administrativos en una columna y sus salarios en otra. Quieres encontrar el promedio de salario por género. ¿Qué función de Excel usarías? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  CONTAR.SI
+    b.  PROMEDIO.SI
+    c.  SUMA
+    d.  MAX
+    e.  PROMEDIO
+
+    **Respuesta correcta: b. PROMEDIO.SI**
+
+5.  Tienes una hoja de cálculo con datos de ventas de varios productos durante el último año. Quieres ver rápidamente las ventas totales de cada producto sin tener que reorganizar o manipular tus datos directamente. ¿Qué herramienta de Excel usarías para esto? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  Filtros
+    b.  Gráficos
+    c.  Tablas dinámicas
+    d.  Fórmulas de matriz
+    e.  Macros
+
+    **Respuesta correcta: c. Tablas dinámicas**
+
+Para responder las siguientes preguntas, utiliza la base de datos que se encuentra en el archivo "evaluacion_02_superstore_dataset_2011_2015.XLSX"; ésta base de datos que contiene información detallada sobre las transacciones de ventas de una tienda en EE.UU.
+
+6.  ¿Cuál es el valor de las ventas totales? Captura tu respuesta utilizando dos decimales.
+
+    **Respuesta: 6,281,112.64** `(Respuesta numérica; dar un margen de +/1 0.02 por errores de captura)`
+
+7.  ¿Cuántos ventas tienen el registro del Código Postal del cliente? Captura tu respuesta SIN decimales
+
+    **Respuesta: 4,930** `(Respuesta numérica)`
+
+8.  ¿Cuántas ordenes con prioridad "ALTA" tuvieron un método de envío de "primera clase"? Captura tu respuesta SIN decimales
+
+    **Respuesta: 1,654** `(Respuesta numérica)`
+
+9.  ¿Cuál es el promedio de las ventas de teléfonos en la categoría de tecnología? Captura tu respuesta utilizando dos decimales.
+
+    **Respuesta: 487.27** `(Respuesta numérica; dar un margen de +/1 0.02 por errores de captura)`
+
+10. ¿Cuál de las subcategoría de producto que aportó la mayor utilidad? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  Copiadoras.
+    b.  Teléfonos.
+    c.  Libreros.
+    d.  Mesas.
+    e.  Máquinas.
+
+    **Respuesta correcta: a**
+
+## Evaluación 3: R básico para el análisis de datos
+
+1.  ¿Cuáles de las siguientes afirmaciones son ciertas sobre los data frames en R? (Selecciona todas las respuestas correctas) `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  Los data frames son una estructura de datos bidimensional.
+    b.  Cada columna en un data frame puede contener datos de un tipo diferente.
+    c.  Los data frames solo pueden contener datos numéricos.
+    d.  Los data frames se utilizan para almacenar datos en forma de tabla.
+
+    **Respuestas correctas: a, b, d** `Distribuir el puntaje entre las respuestas correctas que haya obtenido`
+
+2.  ¿Cuáles de los siguientes paquetes son ampliamente utilizados en R para el análisis de datos? (Selecciona todas las respuestas correctas) `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  dplyr
+    b.  ggplot2
+    c.  numpy
+    d.  tidyr
+
+    **Respuestas correctas: a, b, d** `Distribuir el puntaje entre las respuestas correctas que haya obtenido`
+
+3.  Dado el siguiente código en R:
+
+    ```         
+    a <- 10
+    b <- 3
+    resultado <- (a ^ b) + (a / b) * (a %% b)
+    ```
+
+    ¿Cuál es el valor de la variable "resultado" al finalizar su ejecución? Captura tu respuesta a dos decimales, separa los miles con coma (,).
+
+    **Respuesta: 1,003.33** `(Respuesta numérica)`
+
+4.  Supongamos que tenemos las siguientes variables en R:
+
+    ```         
+    w <- FALSE
+    x <- 5
+    y <- 7
+    z <- TRUE
+    ```
+
+¿Cuál sería el resultado de la siguiente expresión lógica?
+
+````         
+```
+(x > y) AND (y < 10) OR z AND w
+```
+````
+
+a.  TRUE
+b.  FALSE
+c.  NA
+d.  Error
+
+**Respuesta correcta: b**
+
+5.  ¿Qué valor toma la variable "resultado" en el quinto ciclo del siguiente código en R? Captura tu respuesta SIN decimales.
+
+    ```         
+    for (i in 1:10) {
+      resultado <- (i * 2)^2 - (2 * i)
+      print(resultado)
+    }
+    ```
+
+    **Respuesta: 90** `(Respuesta numérica)`
+
+6.  ¿Cuáles de las siguientes opciones son consideradas buenas prácticas para el manejo de datos con R en la nube? (Selecciona todas las respuestas correctas) `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  Utilizar nombres de variables descriptivos
+    b.  Comentar el código de manera exhaustiva
+    c.  Anidar funciones para hacer más legible el código
+    d.  Anonimizar los datos sensibles antes de cargarlos en la nube.
+    e.  Empezar los nombres de variables con un número consecutivo.
+
+    **Respuestas correctas: a, b, d** `Distribuir el puntaje entre las respuestas correctas que haya obtenido`
+
+\*\* Preguntas que se responden con base de datos\*\*
+
+Para responder las siguientes preguntas, carga en R en la plataforma de Colab la siguiente base de datos:
+
+https://raw.githubusercontent.com/cjjmdata/curso_analisis_de_datos_I/main/Datos/Raw/PISA15_calificaciones.csv
+
+7.  ¿Cuántas filas tiene la base de datos? Captura tu respuesta SIN decimales y utiliza la coma como separador de miles (,).
+
+    **Respuestas correctas: 7,568**
+
+8.  Recupera y captura el dato que se encuentra en la fila 584 y la columna PV1MATH. Captura tu respuesta utilizando dos decimales.
+
+    **Respuestas correctas: 324.08**
+
+9.  ¿Qué variable está en la quinta columna del data frame? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a.  PV1SCIE
+    b.  PV1MATH
+    c.  Nivel
+    d.  Modalidad
+    e.  PV1READ
+
+**Respuesta correcta: a**
+
+10. Recupera y captura el dato que se encuentra en la fila 4,241 y la columna 7. Captura tu respuesta SIN decimales.
+
+    **Respuestas correctas: 4**
+
+## Evaluación 4
+
+En esta actividad, trabajarás con las siguientes cuatro visualizaciones encontradas en internet:
+
+a.  <https://twitter.com/Hersalcop/status/1664235009455136770>
+b.  <https://twitter.com/Hersalcop/status/1255719067689857024> (primera foto)
+c.  <https://twitter.com/HersalcopGroup/status/606309341340143616>
+d.  <https://twitter.com/HersalcopGroup/status/594514132478468096>
+
+Dos de las visualizaciones deberás mejorarlas utilizando Excel y las otras dos utilizando R, **implementando** las directrices presentadas en el resumen del libro **"Storytelling with Data: A Data Visualization Guide for Business Professionals"** de Cole Nussbaumer Knaflic.
+
+Instrucciones para participar en el foro:
+
+• Abrir una nueva cadena con un título con la siguiente estructura: "primer apellido, segundo apellido, nombres" seguido de "/ Actividad 4 Visualizaciones". • En la cadena, deberás subir cuatro archivos de imagen con las visualizaciones creadas, indicando en cada una qué herramienta de visualización fue utilizada (Excel o R). • En el cuerpo del post, deberás describir las mejoras implementadas en cada una de ellas, indicando en qué parte del resumen te basaste para realizar los cambios. • Al final del post, deberás compartir los enlaces al libro de Excel en línea y al script en Colab donde elaboraste las visualizaciones. Es importante que verifiques que los archivos estén correctamente compartidos para que cualquier persona con el enlace pueda acceder a ellos. • Una vez que hayas realizado tu publicación, tendrás la responsabilidad de evaluar al menos dos publicaciones de tus compañeros. Recuerda ofrecer críticas constructivas y respetuosas sobre su trabajo.
+
+## Evaluación 5: Análisis exploratorio de datos
+
+`Instrucción general: aleatorizar el orden de las preguntas.`
+
+\*\* Preguntas que se responden con base de datos\*\*
+
+Para responder las siguientes preguntas, carga en R en la plataforma de Colab la siguiente base de datos:
+
+https://raw.githubusercontent.com/cjjmdata/Analisis_de_Datos_Excel_R/main/datos/eval_05_superstore_11_15.csv
+
+1. ¿Cuántas columnas tiene la base de datos? Captura tu respuesta SIN decimales y utiliza la coma como separador de miles (,).
+
+    **Respuestas correctas: 25**
+
+2. ¿Cuántas registros duplicados tiene la base de datos? Captura tu respuesta SIN decimales y utiliza la coma como separador de miles (,).
+
+    **Respuestas correctas: 2,268**
+
+3. 
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
