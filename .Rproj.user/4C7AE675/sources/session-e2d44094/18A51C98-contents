@@ -320,34 +320,175 @@ Instrucciones para participar en el foro:
 
 ## Evaluación 5: Análisis exploratorio de datos
 
-`Instrucción general: aleatorizar el orden de las preguntas.`
+`Instrucción general: dar tres oportunidades, la calificación final será el promedio de las tres.`
 
 \*\* Preguntas que se responden con base de datos\*\*
 
 Para responder las siguientes preguntas, carga en R en la plataforma de Colab la siguiente base de datos:
 
-https://raw.githubusercontent.com/cjjmdata/Analisis_de_Datos_Excel_R/main/datos/eval_05_superstore_11_15.csv
+<https://raw.githubusercontent.com/cjjmdata/Analisis_de_Datos_Excel_R/main/datos/eval_05_superstore_11_15.csv>
+
+(el diccionario de datos con la descripción de cada variable se encuentra en: <https://redanahuac-my.sharepoint.com/personal/conrado_jimenezme_anahuac_mx/_layouts/15/guestaccess.aspx?docid=0920523f90b394101b6af3ce1729337aa&authkey=AbUE3I_Tg4JVQV0jUXltIGc&e=MNkqNj>)
 
 1. ¿Cuántas columnas tiene la base de datos? Captura tu respuesta SIN decimales y utiliza la coma como separador de miles (,).
 
-    **Respuestas correctas: 25**
+    **Respuesta correcta: 24**
 
-2. ¿Cuántas registros duplicados tiene la base de datos? Captura tu respuesta SIN decimales y utiliza la coma como separador de miles (,).
+2. ¿Cuántos registros duplicados tiene la base de datos? Captura tu respuesta SIN decimales y utiliza la coma como separador de miles (,).
 
-    **Respuestas correctas: 2,268**
+    **Respuesta correcta: 2,268**
+    
+Antes de responder las siguientes preguntas, ELIMINA los registros duplicados de la base de datos.
 
-3. 
+3. ¿Cuántos valores faltantes tiene la base de datos? Captura tu respuesta SIN decimales y utiliza la coma como separador de miles (,).
 
-4.
+    **Respuesta correcta: 41,296**
 
-5.
+4. Utiliza la función `table` para responder la siguiente pregunta: ¿cuántos registros pertenecen al segmento "Consumer"? Captura tu respuesta SIN decimales y utiliza la coma como separador de miles (,).
 
-6.
+    **Respuesta correcta: 26,518**
+
+5. Utiliza las funciones `table`, `prop.table` y `round` para responder a la siguiente pregunta: ¿Qué porcentaje de registros son de la región de Oceania? Redondea y captura tu respuesta a DOS decimales.
+
+    **Respuesta correcta: 6.80**
+
+6. El siguiente código, ¿qué salida genera? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+```
+ggplot(data = eval_05_superstore_11_15) +
+  geom_boxplot(aes(y = Sales)) +
+  xlab("") +
+  ylab("$")
+```
+
+  a. Una gráfica de barras horizontal.
+  b. Una gráfica de barras vertical.
+  c. Una gráfica de barras apilada.
+  d. Una gráfica de dispersión.
+  e. Una gráfica de caja y brazos horizontal.
+  f. Una gráfica de caja y brazos vertical.
+  g. Una tabla de frecuencias.
+    
+  **Respuesta correcta: f. Una gráfica de caja y brazos vertical.**
+
+7. La variable `Sales` (ventas), ¿cuántos datos atípicos presenta? Utiliza en R una distancia de 1.5 veces el rango intercuartilico (IQR) para identificarlos. Captura tu respuesta SIN decimales y utiliza la coma como separador de miles (,).
+
+    **Respuesta correcta: 5,655**
+
+8. ¿Cuál es el valor promedio (redondeado sin decimales) de las ventas en la categoría de muebles (furniture)? Consejo: en R, con el operador 'pipe' (`|`) agrupa por `Category` y después utiliza la función `summarise` junto con la función `mean`; no olvides redondear tu resultado al entero más próximo. Captura tu respuesta SIN decimales y utiliza la coma como separador de miles (,)
+
+    **Respuesta correcta: 416**
+
+9. ¿Cuál es la cantidad promedio comprada por pedido en la región del Caribe? Captura tu respuesta a DOS decimales y utiliza la coma como separador de miles (,)
+
+    **Respuesta correcta: 3.73**
+
+10. ¿Qué categoría de 'prioridad de la orden' aportó un mayor monto de utilidad (profit)? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a. Critical.
+    b. High.
+    c. Medium
+    d. Low.
+    
+  **Respuesta correcta: c. Medium.**
+
+
+## Evaluación 6: Análisis exploratorio de datos
+
+`Instrucción general: aleatorizar el orden de las preguntas.`
+
+1. ¿Qué método se usa comúnmente para estimar los parámetros de una regresión lineal? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a. Método de la raíz cuadrada
+    b. Método de la desviación estándar
+    c. Método de la mediana
+    d. Método de mínimos cuadrados
+    
+    **Respuesta correcta: d. Método de mínimos cuadrados**
+
+2. En la ecuación de regresión lineal simple y = b + mx, ¿qué representa 'm'? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a. La variable dependiente
+    b. La variable independiente
+    c. La pendiente de la línea de regresión
+    d. el intercepto de la línea de regresión: el valor esperado de `y` cuando `x = 0`
+    
+    **Respuesta correcta: c. La pendiente de la línea de regresión**
+
+3. ¿Cuáles son las propiedades que los errores de un modelo de regresión lineal simple deben cumplir? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a. Los errores tienen media cero
+    b. Los errores son independientes y están idénticamente distribuidos (iid)
+    c. Los errores tienen una varianza constante
+    d. Los errores son siempre positivos
+    
+    **Respuesta correcta: a, b, c**
+
+
+4. ¿Qué diferencia hay entre la regresión lineal simple y la regresión lineal múltiple? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a. La regresión lineal simple solo puede tener una variable dependiente, mientras que la regresión lineal múltiple puede tener varias
+    b. La regresión lineal simple solo puede tener una variable independiente, mientras que la regresión lineal múltiple puede tener varias
+    c. La regresión lineal simple utiliza el método de mínimos cuadrados, mientras que la regresión lineal múltiple no
+    d. La regresión lineal múltiple siempre proporcionará un mejor ajuste a los datos que la regresión lineal simple
+    
+    **Respuesta correcta: b. La regresión lineal simple solo puede tener una variable independiente, mientras que la regresión lineal múltiple puede tener varias**
+
+
+5. ¿Cuál es el propósito de ajustar un modelo de regresión lineal múltiple? `(Instrucción: aleatorizar el orden de las respuestas.)`
+
+    a. Predecir una variable dependiente basándose en dos o más variables independientes
+    b. Clasificar los datos en diferentes categorías
+    c. Reducir la dimensionalidad de los datos
+    d. Comprobar si una variable independiente es igual a cero
+    
+    **Respuesta correcta: a. Predecir una variable dependiente basándose en dos o más variables independientes**
+
+
+6. Observa la siguiente gráfica e indica qué tipo de relación presentan las variables:
+
+```{r, fig.align='center', echo=FALSE}
+set.seed(123)
+
+x <- rnorm(100)
+y <- -2*x + rnorm(100)
+# Crear dataframe
+df <- data.frame(x, y)
+# Visualizar la relación entre x e y
+plot(df$x, df$y, main = "Gráfica de dispersión", 
+     xlab = "Variable x", ylab = "Variable y", pch = 19)
+#abline(lm(y ~ x, data = df), col = "red")  # añadir una línea de regresión
+
+
+set.seed(NULL)
+
+```
+
+
+  a. Relación lineal positiva
+  b. Relación lineal negativa
+  c. Relación no lineal
+  d. Sin relación evidente
+
+  **Respuesta correcta: b. Relación lineal negativa**
+
+
+\*\* Preguntas que se responden con base de datos\*\*
+
+Para responder las siguientes preguntas, carga en R en la plataforma de Colab la siguiente base de datos:
+
+<>
+
+(el diccionario de datos con la descripción de cada variable se encuentra en: <https://redanahuac-my.sharepoint.com/personal/conrado_jimenezme_anahuac_mx/_layouts/15/guestaccess.aspx?docid=0f8993592997542fd83ebfda9d13d6c50&authkey=AddmU2y0WKgvHJF9ygUZoug&e=VhDqfu>)
+
 
 7.
 
+
 8.
 
+
 9.
+
 
 10.

@@ -13,3 +13,7 @@ datos_vf <- rbind(datos, duplicados)
 
 write.csv(datos_vf, file = "datos/eval_05_superstore_11_15.csv", row.names = FALSE)
 
+ggplot(data = datos) +
+  geom_boxplot(aes(x = Sales)) +
+  xlab("") +
+  ylab("$")
